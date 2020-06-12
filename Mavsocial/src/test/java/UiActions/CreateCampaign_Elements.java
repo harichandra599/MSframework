@@ -48,12 +48,12 @@ public class CreateCampaign_Elements extends TestBase
     @FindBy(how = How.XPATH, using  = "//input[@placeholder='Description']")
     WebElement cdescription; //Web Element  For campaign description  
     
-  /*  @FindBy(how = How.XPATH, using  = "//select[@class='form-control']")         //div[@class='col-md-12 col-lg-12']//select[@class='form-control']
+    @FindBy(how = How.XPATH, using  = "//select[@class='form-control']")         
     WebElement seelctteam; //Web Element  For select team 
     
     @FindBy(how = How.CLASS_NAME, using  = "checkbox")
     WebElement tcheckbox; //Web Element  For team member selection 
-*/    
+    
     @FindBy(how = How.XPATH, using  = "//button[@class='btn btn-secondary ml-2 btn-sm']")
     WebElement ccreate2; //Web Element  For campaign create  
     
@@ -64,9 +64,9 @@ public class CreateCampaign_Elements extends TestBase
     public void createcampaign() throws Exception
     {
   	  
-     /* File config = new File(System.getProperty("user.dir") + "//src//test//java//Configurations//config.properties");
+      File config = new File(System.getProperty("user.dir") + "//src//test//java//Configurations//config.properties");
       FileInputStream f1 = new FileInputStream(config);
-      OR.load(f1);
+      OR.load(f1);/*
       //enter user name 
   	  Thread.sleep(3000);
   	  musername.sendKeys(OR.getProperty("username"));
@@ -91,18 +91,24 @@ public class CreateCampaign_Elements extends TestBase
       //give campaign description 
       cdescription.sendKeys("campaign description by automation");
       log.info("<===========campaign description given successfully!===========> ");
-      /*select Team name 
-      String teamname = "Hari Team";
-      select_by_visibletext(seelctteam, teamname);
-      log.info("<===========Team selected successfully!===========> ");
-      //select team member 
-      Thread.sleep(5000);
-      tcheckbox.click();
-      log.info("<===========Team member selected successfully!===========> ");
-      //click on create button 
-      ccreate2.click();
-      log.info("<===========Team member selected successfully!===========> ");
-      */
+      String Ent = OR.getProperty("Enterprise");
+      System.out.println("Enterprise subscription value is" +Ent);
+      if(Ent == "3")
+      {
+    	  //validating select team drop down was displayed or not 
+    	  //select Team name 
+          select_by_visibletext(seelctteam, "Hari Team");
+          log.info("<===========Team selected successfully!===========> ");
+          //select team member 
+          Thread.sleep(5000);
+          tcheckbox.click();
+          log.info("<===========Team member selected successfully!===========> ");
+          //click on create button 
+          ccreate2.click();
+          log.info("<===========Team member selected successfully!===========> ");
+
+      }
+     
       //click on create campaign 
       Thread.sleep(3000);
       //scroll down the page 
