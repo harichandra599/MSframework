@@ -2,6 +2,9 @@ package TestCases;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.time.Duration;
+import java.time.Instant;
+
 import org.apache.log4j.Logger;
 import org.testng.annotations.*;
 import org.testng.annotations.DataProvider;
@@ -33,12 +36,16 @@ public class Login  extends TestBase
 	  @Test /*(dataProvider="loginData")*/
 	  public void loginoperations() throws Exception 
 	  { 
+		  //calculate time 
+		  Instant start = Instant.now();
 		  login=new Login_Elements(driver);
 		  Thread.sleep(3000);
 		  log.info("<===========Starting Login operations===========> ");
 		  login.loginoperations();
 		  log.info("<===========Ended login operations===========> ");
-		 
-		  
+		  //calculate time 
+		  Instant end = Instant.now();
+		  Duration timeElapsed = Duration.between(start, end); 
+		  log.info("<===========Time taken for Login operations is===========>" +timeElapsed.getSeconds());  
 	  }
 }

@@ -1,6 +1,8 @@
 package TestCases;
 
 import java.lang.reflect.Method;
+import java.time.Duration;
+import java.time.Instant;
 import org.apache.log4j.Logger;
 import org.testng.annotations.*;
 import org.testng.annotations.BeforeMethod;
@@ -26,12 +28,16 @@ public class Create_Campaign extends TestBase
 	  }*/
 	  @Test
 	  public void cretecampaign() throws Exception 
-	  { 
+	  {   
+		  Instant start = Instant.now();
 		  createcamp=new CreateCampaign_Elements(driver);
 		  Thread.sleep(5000);
 		  log.info("<===========create campaign  operations===========> ");
 		  createcamp.createcampaign();
 		  log.info("<===========Ended create campaign operations===========> ");
+		  Instant end = Instant.now();
+		  Duration timeElapsed = Duration.between(start, end);
+		  log.info("<===========Time taken for Create time operations===========>" +timeElapsed.getSeconds());
 		 
 		  
 	  }

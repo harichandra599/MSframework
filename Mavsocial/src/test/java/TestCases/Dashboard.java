@@ -1,6 +1,9 @@
 package TestCases;
 
 import java.lang.reflect.Method;
+import java.time.Duration;
+import java.time.Instant;
+
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -27,11 +30,15 @@ public class Dashboard extends TestBase
 	  @Test
 	  public void dashboardoperations() throws Exception 
 	  { 
+		  Instant start = Instant.now();
 		  dashboard=new Dashboard_Elements(driver);
 		  Thread.sleep(3000);
 		  log.info("<===========Starting Dashboard operations===========> ");
 		  dashboard.dashboardoperations();
 		  log.info("<===========Ended Dashboard operations===========> ");
+		  Instant end = Instant.now();
+		  Duration timeElapsed = Duration.between(start, end); 
+		  log.info("<===========Time taken for Dashboard operations is===========>" +timeElapsed.getSeconds());
 		 
 		  
 	  }

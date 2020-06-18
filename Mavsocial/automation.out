@@ -7076,3 +7076,93 @@ VNR page1
 2020-06-18 16:52:38 INFO  Logout_Elements:49 - <===========User logged out successfully!===========> 
 2020-06-18 16:52:38 INFO  Logout:35 - <===========Ended logout operations===========> 
 2020-06-18 16:52:38 INFO  Logout:43 - <================Browser closed successfully========>
+2020-06-18 20:18:37 INFO  TestBase:124 - creating object of chrome
+2020-06-18 20:18:47 INFO  TestBase:176 -  =====>Navigating to url<======= https://app.maventus.com/home/home
+2020-06-18 20:19:23 INFO  Login:43 - <===========Starting Login operations===========> 
+2020-06-18 20:19:29 INFO  Login_Elements:50 - <=========== User name entered successfully!===========> 
+2020-06-18 20:19:29 INFO  Login_Elements:52 - <===========password entered successfully!===========> 
+2020-06-18 20:19:34 INFO  Login_Elements:55 - <===========Login button clicked successfully!===========> 
+2020-06-18 20:19:34 INFO  Login_Elements:56 - <===========User logged in successfully!===========> 
+2020-06-18 20:19:34 INFO  Login:45 - <===========Ended login operations===========> 
+2020-06-18 20:19:34 INFO  Login:49 - <===========Time taken for Login operations is===========>PT15.667S
+2020-06-18 20:19:39 INFO  Create_Campaign:35 - <===========create campaign  operations===========> 
+2020-06-18 20:20:12 INFO  Dashboard:36 - <===========Starting Dashboard operations===========> 
+2020-06-18 20:20:22 INFO  Dashboard_Elements:68 - <===========FaceBook pages drop down clicked successfully!===========> 
+2020-06-18 20:20:22 INFO  Dashboard_Elements:71 - Page names are 	All Pages
+Admin Company
+Admin Company (Banglore)
+Admin Company (Hyderabad Koti)
+Admin Company (Hyderabad)
+Business
+Business (Avanigadda)
+Business (Donepudi, India)
+Business (Eluru)
+Business (Guntur)
+Business (Kolluru, Andhra Pradesh, India)
+Business (Kotipalle)
+Business (Nagayalanka)
+Business (Near hari Text tiles)
+Business (near More market)
+Business (Near Rk fruit shop)
+Business (Tenali)
+Bussiness
+Celebritygallery
+Check one
+MVP Ads
+TAGS GROUP
+Tester Vnr (undefined)
+VNR page1
+2020-06-18 20:20:22 INFO  Dashboard_Elements:74 - <===========Latest comment showing successfully!===========> 
+2020-06-18 20:20:22 INFO  Dashboard:38 - <===========Ended Dashboard operations===========> 
+2020-06-18 20:20:22 INFO  Dashboard:41 - <===========Time taken for Dashboard operations is===========>PT13.518S
+2020-06-18 20:20:25 INFO  Logout:33 - <===========Starting Logout operations===========> 
+2020-06-18 20:20:32 INFO  Logout_Elements:45 - <=========== profile name clicked successfully!===========> 
+2020-06-18 20:20:39 INFO  Logout_Elements:48 - <===========Logout button clicked successfully!===========> 
+2020-06-18 20:20:39 INFO  Logout_Elements:49 - <===========User logged out successfully!===========> 
+2020-06-18 20:20:39 INFO  Logout:35 - <===========Ended logout operations===========> 
+2020-06-18 20:20:40 INFO  Logout:43 - <================Browser closed successfully========>
+2020-06-18 20:41:17 INFO  TestBase:124 - creating object of chrome
+2020-06-18 20:41:22 INFO  TestBase:176 -  =====>Navigating to url<======= https://app.maventus.com/home/home
+2020-06-18 20:41:58 INFO  Login:43 - <===========Starting Login operations===========> 
+2020-06-18 20:42:04 INFO  Login_Elements:50 - <=========== User name entered successfully!===========> 
+2020-06-18 20:42:04 INFO  Login_Elements:52 - <===========password entered successfully!===========> 
+2020-06-18 20:42:09 INFO  Login_Elements:55 - <===========Login button clicked successfully!===========> 
+2020-06-18 20:42:09 INFO  Login_Elements:56 - <===========User logged in successfully!===========> 
+2020-06-18 20:42:09 INFO  Login:45 - <===========Ended login operations===========> 
+2020-06-18 20:42:09 INFO  Login:49 - <===========Time taken for Login operations is===========>13
+2020-06-18 20:42:14 INFO  Create_Campaign:35 - <===========create campaign  operations===========> 
+2020-06-18 20:43:03 INFO  Dashboard:36 - <===========Starting Dashboard operations===========> 
+2020-06-18 20:43:14 INFO  Dashboard_Elements:68 - <===========FaceBook pages drop down clicked successfully!===========> 
+2020-06-18 20:43:14 INFO  Dashboard_Elements:71 - Page names are 	All Pages
+Admin Company
+Admin Company (Banglore)
+Admin Company (Hyderabad Koti)
+Admin Company (Hyderabad)
+Business
+Business (Avanigadda)
+Business (Donepudi, India)
+Business (Eluru)
+Business (Guntur)
+Business (Kolluru, Andhra Pradesh, India)
+Business (Kotipalle)
+Business (Nagayalanka)
+Business (Near hari Text tiles)
+Business (near More market)
+Business (Near Rk fruit shop)
+Business (Tenali)
+Bussiness
+Celebritygallery
+Check one
+MVP Ads
+TAGS GROUP
+Tester Vnr (undefined)
+VNR page1
+2020-06-18 20:43:14 INFO  Dashboard_Elements:74 - <===========Latest comment showing successfully!===========> 
+2020-06-18 20:43:14 INFO  Dashboard:38 - <===========Ended Dashboard operations===========> 
+2020-06-18 20:43:14 INFO  Dashboard:41 - <===========Time taken for Dashboard operations is===========>13
+2020-06-18 20:43:17 INFO  Logout:33 - <===========Starting Logout operations===========> 
+2020-06-18 20:43:24 INFO  Logout_Elements:45 - <=========== profile name clicked successfully!===========> 
+2020-06-18 20:43:31 INFO  Logout_Elements:48 - <===========Logout button clicked successfully!===========> 
+2020-06-18 20:43:31 INFO  Logout_Elements:49 - <===========User logged out successfully!===========> 
+2020-06-18 20:43:31 INFO  Logout:35 - <===========Ended logout operations===========> 
+2020-06-18 20:43:31 INFO  Logout:43 - <================Browser closed successfully========>
