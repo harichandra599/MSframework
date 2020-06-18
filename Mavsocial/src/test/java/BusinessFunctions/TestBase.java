@@ -53,6 +53,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import ExcelReader.ExcelReader;
 import Listeners.Listner;
+import jxl.common.AssertionFailed;
 import jxl.read.biff.BiffException;
 
 public class TestBase 
@@ -590,7 +591,23 @@ public void Assertions(WebElement Ele, String Expectedtext)
 	String ActualTitle= Ele.getText();
 	String ExpectedTitle = Expectedtext;
 	Assert.assertEquals(ActualTitle, ExpectedTitle);
+	
 }
+//For Not equals
+public void Assertionsnotequals(WebElement Ele, String Expectedtext)
+{
+	String ActualTitle= Ele.getText();
+	String ExpectedTitle = Expectedtext;
+	//Assert.assertNotEquals(ActualTitle, ExpectedTitle);
+	/*Assert.assertFalse(ActualTitle, ExpectedTitle);
+	
+	Assert.assertNotEquals("Hello", "How are you"); 
+	
+	driver.findele*/
+	
+	
+}
+
 
 
 

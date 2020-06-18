@@ -6,20 +6,7 @@
       <class name="TestCases.Login"/>
       <class name="TestCases.Create_Campaign"/>
       <class name="TestCases.Dashboard"/>
+      <class name="TestCases.Logout"/>
     </classes>
   </test> <!-- Enterpriseuserlogin -->
-  <test name="Enterpriseuserlogin(failed)">
-    <classes>
-      <class name="TestCases.Login">
-        <methods>
-          <include name="openbrowser"/>
-        </methods>
-      </class> <!-- TestCases.Login -->
-      <class name="TestCases.Create_Campaign">
-        <methods>
-          <include name="cretecampaign"/>
-        </methods>
-      </class> <!-- TestCases.Create_Campaign -->
-    </classes>
-  </test> <!-- Enterpriseuserlogin(failed) -->
 </suite> <!-- Failed suite [TestCases] -->

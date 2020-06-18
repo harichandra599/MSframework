@@ -21,7 +21,7 @@ public class Login_Elements extends TestBase
 	
 	
 	SoftAssert softassert=new SoftAssert();
-    public static final Logger log=Logger.getLogger(Enterpriseuserobj.class.getName());
+    public static final Logger log=Logger.getLogger(Login_Elements.class.getName());
     
     public  Login_Elements(WebDriver driver)
     {
@@ -36,6 +36,7 @@ public class Login_Elements extends TestBase
     
     @FindBy(how = How.XPATH, using = "//button[@type='button']")
     WebElement loginbutton; //Web Element  For login button click 
+  
     
     public void loginoperations() throws Exception
     {
@@ -53,5 +54,7 @@ public class Login_Elements extends TestBase
       loginbutton.click();
       log.info("<===========Login button clicked successfully!===========> ");
       log.info("<===========User logged in successfully!===========> ");
+      
+    
 }
 }

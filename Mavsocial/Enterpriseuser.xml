@@ -7,6 +7,7 @@
          <class name="TestCases.Login"/>
          <class name="TestCases.Create_Campaign"/>
            <class name="TestCases.Dashboard"/>
+           <class name="TestCases.Logout"/>
        </classes>
   </test>       
 </suite>

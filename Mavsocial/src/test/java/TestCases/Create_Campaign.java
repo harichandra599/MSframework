@@ -22,13 +22,13 @@ public class Create_Campaign extends TestBase
 		  test = extent.startTest(result.getName());
 		  test.log(LogStatus.INFO, result.getName() + " test Started");
 		  init();
-		  wait_for_page_load(5000);
+		  wait_for_page_load(2000);
 	  }*/
 	  @Test
 	  public void cretecampaign() throws Exception 
 	  { 
 		  createcamp=new CreateCampaign_Elements(driver);
-		  Thread.sleep(15000);
+		  Thread.sleep(5000);
 		  log.info("<===========create campaign  operations===========> ");
 		  createcamp.createcampaign();
 		  log.info("<===========Ended create campaign operations===========> ");
